@@ -11,9 +11,7 @@ const UserListScreen: React.FC = () => {
         const response = await fetch('https://randomuser.me/api/');
         const data = await response.json();
         setUserData(data.results[0]);
-      } catch (error) {
-        console.error('Error fetching user data:', error);
-      }
+      } catch (error) {}
     };
 
     fetchUserData();
@@ -23,8 +21,8 @@ const UserListScreen: React.FC = () => {
     <View style={styles.container}>
       {userData ? (
         <View>
-          <Text>Name: {`${userData.name.first} ${userData.name.last}`}</Text>
-          <Text>Email: {userData.email}</Text>
+          <Text>{`Name: ${userData.name.first} ${userData.name.last}`}</Text>
+          <Text>{`Email: ${userData.email}`}</Text>
         </View>
       ) : (
         <Text>Loading...</Text>

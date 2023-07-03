@@ -1,17 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListScreen render with snapsho with black itemst matches snapshot 1`] = `
-<View>
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingVertical": 50,
+    }
+  }
+>
   <Text>
     ListScreen Component
   </Text>
+  <RCTScrollView>
+    <View />
+  </RCTScrollView>
 </View>
 `;
 
 exports[`ListScreen render with snapshot matches snapshot 1`] = `
-<View>
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingVertical": 50,
+    }
+  }
+>
   <Text>
     ListScreen Component
   </Text>
+  <RCTScrollView>
+    <View />
+  </RCTScrollView>
 </View>
 `;
