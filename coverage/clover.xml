@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688451736253" clover="3.2.0">
-  <project timestamp="1688451736254" name="All files">
-    <metrics statements="49" coveredstatements="49" conditionals="11" coveredconditionals="11" methods="15" coveredmethods="15" elements="75" coveredelements="75" complexity="0" loc="49" ncloc="49" packages="7" files="8" classes="8"/>
+<coverage generated="1688460630742" clover="3.2.0">
+  <project timestamp="1688460630742" name="All files">
+    <metrics statements="52" coveredstatements="52" conditionals="13" coveredconditionals="13" methods="16" coveredmethods="16" elements="81" coveredelements="81" complexity="0" loc="52" ncloc="52" packages="8" files="9" classes="9"/>
     <package name="src">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/Users/samirs1/SamirS/Projects/SessionDemo/UnitTesting-22-06-23/Demo/src/App.tsx">
@@ -9,6 +9,15 @@
         <line num="8" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.comp.Text">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/samirs1/SamirS/Projects/SessionDemo/UnitTesting-22-06-23/Demo/src/comp/Text/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.screens.__mock__">
@@ -85,8 +94,8 @@
         <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
       <file name="index.ts" path="/Users/samirs1/SamirS/Projects/SessionDemo/UnitTesting-22-06-23/Demo/src/utils/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
