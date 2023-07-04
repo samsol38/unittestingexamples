@@ -6,6 +6,7 @@ export const calculateSum = (a: number, b: number): number => {
     return sum;
   }
 };
+
 const multiplyByTwo = (num: number): number => {
   return num * 2;
 };
